@@ -21,7 +21,7 @@ Instead of building it yourself you can download the pre-built image from the
 [Cloud Library](https://cloud.sylabs.io/library) with:
 
 ```sh
-singularity pull singularity-r.sif library://nickjer/default/singularity-r:4.2.1
+singularity pull singularity-r.sif library://marcomeola/default/singularity-r:4.2.3
 ```
 
 > **WARNING:** This pre-built image comes with OpenBLAS installed using the
