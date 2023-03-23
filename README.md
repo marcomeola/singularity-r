@@ -12,7 +12,7 @@ This is still a work in progress.
 You can build a local Singularity image named `singularity-r.sif` with:
 
 ```sh
-sudo singularity build singularity-r.sif singularity-r.def
+sudo singularity build singularity-r_4.2.3.sif singularity-r.def
 ```
 
 ## Deploy
@@ -21,7 +21,7 @@ Instead of building it yourself you can download the pre-built image from the
 [Cloud Library](https://cloud.sylabs.io/library) with:
 
 ```sh
-singularity pull singularity-r.sif library://marcomeola/default/singularity-r:4.2.3
+singularity pull singularity-r.sif library://nickjer/default/singularity-r:4.2.1
 ```
 
 > **WARNING:** This pre-built image comes with OpenBLAS installed using the
